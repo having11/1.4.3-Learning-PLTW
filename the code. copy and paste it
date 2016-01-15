@@ -1,0 +1,12 @@
+class lesson(object): #this is the class name. 'object' is your defined object.
+    def __init__(self, color=[58, 158, 79], name="Ruff"): # this is the class contructor. color and name are the initialised values. 'self' is the object.
+        self.color = color #here the object is given the color values and the name from '__init__' arguments
+        self.name = name
+    def name(self): #this method prints the object's name.
+        print "The object's name is: ", self.name
+    def rename(self): #here you can rename your object
+        c = raw_input("Say the new name: ") #user input for new name
+        self.name = c #re-assigning new value to name variable
+        print "The object's new name is: ", self.name #print out the new name
+dog = lesson() #create an object called 'dog'. When the code is run, dog takes the place of 'object' and 'self' arguments.
+#type in: dog.rename() to get started. feel free to change it. have fun!
