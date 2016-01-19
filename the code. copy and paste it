@@ -10,3 +10,5 @@ class lesson(object): #this is the class name. 'object' is your defined object.
         print "The object's new name is: ", self.name #print out the new name
 dog = lesson() #create an object called 'dog'. When the code is run, dog takes the place of 'object' and 'self' arguments.
 #type in: dog.rename() to get started. feel free to change it. have fun!
+/*dog.rename will do this:
+"say the new name:" *you type it in* "the new name is: (the name)
