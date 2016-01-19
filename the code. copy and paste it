@@ -12,3 +12,5 @@ dog = lesson() #create an object called 'dog'. When the code is run, dog takes t
 #type in: dog.rename() to get started. feel free to change it. have fun!
 /*dog.rename will do this:
 "say the new name:" *you type it in* "the new name is: (the name)
+*/
+#this code is under the creative commons liscense. This may be reproduced and editied, but give credit to me if you are re-using it.
